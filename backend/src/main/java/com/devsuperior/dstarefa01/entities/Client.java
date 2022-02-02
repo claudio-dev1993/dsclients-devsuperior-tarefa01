@@ -37,6 +37,14 @@ public class Client implements Serializable{
 		this.birthDate = birthDate;
 		this.children = children;
 	}
+	
+	public Client(String name, String cpf, Double income, Instant birthDate, Integer children) {
+		this.name = name;
+		this.cpf = cpf;
+		this.income = income;
+		this.birthDate = birthDate;
+		this.children = children;
+	}
 
 	public Long getId() {
 		return id;
